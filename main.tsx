@@ -6,12 +6,14 @@ createRoot(document.getElementById("root")!).render(<App />);
 
 // 🔥 Firebase Config (Replace with your own from Firebase)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "XXXX",
-  appId: "XXXX"
+  apiKey: "AIzaSyCiKkrvKDSdKM1DEXggVpyNVMurNtpl-Cc",
+  authDomain: "k-messenger-baa7a.firebaseapp.com",
+  databaseURL: "https://k-messenger-baa7a-default-rtdb.asia-southeast1.firebasedatabase.app", 
+  projectId: "k-messenger-baa7a",
+  storageBucket: "k-messenger-baa7a.firebasestorage.app",
+  messagingSenderId: "983646824389",
+  appId: "1:983646824389:web:eebc90e61b3f019c74cdac",
+  measurementId: "G-R393X0Y0EM"
 };
 
 // Initialize Firebase
